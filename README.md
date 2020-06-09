@@ -335,4 +335,3 @@ npm run start
 * You can now check the back-end to see if everything has worked ok.  From the AWS console load s3 and check out the s3 bucket,  the name of which you added when you ran the cloudFormation.  In the bucket you should see /0/\<date\>/\<guid\>.json.
 
 * In addition the cloudFormation templates will have created a second bucket.  The name will be in the format \<stack name\>-listencapturelambda-\<some text\>-listendatastore-\<sometext\>.  If you go into that bucket you should see some folders.  In each folder you should see some data for each question.
-# thecircle - Clare Lindley
